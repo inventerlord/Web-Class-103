@@ -14,6 +14,7 @@
         <input type="number" placeholder="Enter number" id="num1" min="0" value="0">
         <input type="number" placeholder="Enter number" id="num2" min="0" value="0">
         <span id="result"></span>
+        <a id="link" >helloo</a>
     </div>
     <!-- <button type="button" id="bt">get Value</button> -->
 
@@ -33,9 +34,11 @@
 
 num1.addEventListener('change',calculate);
 num2.addEventListener('change',calculate);
-
+let m = document.getElementById("link");
 // input
-
+m.onclick = function(){
+    window.open("https://www.google.com/");
+}
 num1.addEventListener('input',calculate);
 num2.addEventListener('input',calculate);
         function calculate(){
