@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lec004 Form Validation Part 2</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form">
+            <form id="regForm">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" placeholder="Username" id="username">
+                    <small id="userErr" class="hide">this is err</small>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" placeholder="Email" id="email">
+                    <small id="emailErr" class="hide">this is err</small>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="password" id="password">
+                    <small id="passErr" class="hide">this is err</small>
+                </div>
+                <div class="form-group">
+                    <label for="cpassword">Confirm Password</label>
+                    <input type="password" placeholder="Confirm" id="cpassword">
+                    <small id="cPassErr" class="hide">this is err</small>
+                </div>
+                <div class="btn">
+                    <button>Register</button>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
